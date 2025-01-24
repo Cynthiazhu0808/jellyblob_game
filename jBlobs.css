@@ -1,0 +1,57 @@
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    /* all the following will be overridden in real blobs */
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+}
+
+#player {
+    width: 50px;
+    height: 50px;
+    top: 100px;
+    left: 100px;
+    z-index: 999;
+}
+
+body {
+    overflow: hidden;
+}
+
+#winOrLose {
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    z-index: 9999;
+    font-size: 40px;
+    font-family: 'Asap', sans-serif;
+}
+
+.button {
+    margin: 10px auto;
+    padding: 15px;
+    background-color: tomato;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#intro {
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    z-index: 9999;
+    font-family: 'Asap', sans-serif; 
+    overflow: auto;          /* will override the one from body */
+}
+
+h1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: none;
+    font-family: 'Asap', sans-serif; 
+    
+}
